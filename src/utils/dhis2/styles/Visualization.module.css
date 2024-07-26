@@ -1,0 +1,60 @@
+.messageContent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacers-dp8);
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.92);
+    font-size: 13px;
+    font-stretch: normal;
+    color: var(--colors-grey900);
+    text-align: center;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.errorMessage {
+    margin-top: var(--spacers-dp48);
+    margin-bottom: var(--spacers-dp8);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.appLink {
+    font-size: 16px;
+    margin-top: var(--spacers-dp8);
+}
+
+.appLink a {
+    color: var(--colors-grey700);
+}
+.warningIcon {
+    background-color: var(--colors-white);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.container {
+    text-align: center;
+    margin: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.message {
+    font-size: 13px;
+}

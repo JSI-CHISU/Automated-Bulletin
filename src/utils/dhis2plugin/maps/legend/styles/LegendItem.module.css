@@ -1,0 +1,19 @@
+.legendItem {
+    height: var(--spacers-dp24);
+}
+
+.legendItem th {
+    min-width: var(--spacers-dp24);
+    height: var(--spacers-dp24);
+    padding: 0;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.legendItem th span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
