@@ -13,7 +13,8 @@ const queryTemplates = {
     resource: `dataStore/automated_bulletin`,
     params:{
       fields: 'id,name,updatedAt,updatedBy,published,fileResource',
-      paging: false
+      paging: false,
+      headless: true,
     }
   }
 }
@@ -52,6 +53,7 @@ export const ViewReport = ({ user }) => {
   const { baseUrl } = useConfig();
   
   useEffect(()=>{
+    console.log(data);
     if(data && !loading){
       setTemplates(sortBy(data?.templates,['updatedAt'])?.reverse());
     }
