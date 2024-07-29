@@ -10,7 +10,7 @@ import sortBy from 'lodash/sortBy';
 
 const queryTemplates = {
   templates: {
-    resource: `dataStore/malaria_bulletin`,
+    resource: `dataStore/automated_bulletin`,
     params:{
       fields: 'id,name,updatedAt,updatedBy,published,fileResource',
       paging: false
@@ -19,17 +19,17 @@ const queryTemplates = {
 }
 const queryReport = (id)=>({
   report: {
-    resource: `dataStore/malaria_bulletin/${id}`
+    resource: `dataStore/automated_bulletin/${id}`
   }
 });
 
 const delMutation={
-  resource: 'dataStore/malaria_bulletin',
+  resource: 'dataStore/automated_bulletin',
   type: 'delete',
   id: ({id })=>id
 }
 const mutation = {
-  resource: 'dataStore/malaria_bulletin',
+  resource: 'dataStore/automated_bulletin',
   type: 'update',
   id: ({id })=>id,
   data: ({ data, id, name, published = false })=>({ 

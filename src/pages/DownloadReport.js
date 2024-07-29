@@ -5,7 +5,7 @@ import Template from './Template';
 
 const queryTemplates = ({ id })=>({
   templates: {
-    resource: `dataStore/malaria_bulletin/${id}`
+    resource: `dataStore/automated_bulletin/${id}`
   }
 });
 

@@ -14,8 +14,8 @@ msgstr "Settings"
 msgid "Bulletins"
 msgstr "Bulletins"
 
-msgid "Malaria Bulletin Report"
-msgstr "Malaria Bulletin Report"
+msgid "Automated Bulletin Report"
+msgstr "Automated Bulletin Report"
 
 msgid "Design the Report Template"
 msgstr "Design the Report Template"

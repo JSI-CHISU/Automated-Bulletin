@@ -1,6 +1,6 @@
 {
-  "name": "malaria_bulletins",
-  "version": "1.0.3",
+  "name": "automated_bulletin",
+  "version": "1.0.4",
   "description": "",
   "license": "BSD-3-Clause",
   "private": true,

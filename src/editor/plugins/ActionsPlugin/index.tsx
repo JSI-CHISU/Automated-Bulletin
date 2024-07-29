@@ -38,7 +38,7 @@ import { useShallow } from 'zustand/react/shallow';
 import { AlertBar } from '@dhis2-ui/alert';
 
 const mutation: any = {
-    resource: 'dataStore/malaria_bulletin',
+    resource: 'dataStore/automated_bulletin',
     type: 'update',
     id: ({id })=>id,
     data: ({ data, id, name, updatedBy, published=false,fileResource='', })=>({ 
@@ -98,7 +98,7 @@ async function validateEditorState(editor: LexicalEditor): Promise<void> {
 
 const queryReport = (id)=>({
   report: {
-    resource: `dataStore/malaria_bulletin/${id}`
+    resource: `dataStore/automated_bulletin/${id}`
   }
 });
 

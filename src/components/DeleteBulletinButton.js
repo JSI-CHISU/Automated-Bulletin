@@ -2,7 +2,7 @@ import { useDataMutation } from '@dhis2/app-runtime'
 import { Button } from '@dhis2/ui'
 
 const bulletinMutation = {
-    resource: "dataStore/malaria-bulletin/bulletins",
+    resource: "dataStore/automated-bulletin/bulletins",
     type: 'update',
     data: ({ data }) => data,
 }

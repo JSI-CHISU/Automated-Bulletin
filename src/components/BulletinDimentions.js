@@ -7,7 +7,7 @@ import { getPeriod } from '../utils'
 import classes from './../App.module.css'
 
 const FULL_ROUTE = window.location.href
-const APP_NAME = "malaria-bulletins"
+const APP_NAME = "automated-bulletin"
 const MY_LOCAL_PORT = "http://localhost:8085/api"
 const API_BASE_ROUTE = FULL_ROUTE.substring(0, FULL_ROUTE.indexOf('/apps/'.concat(APP_NAME).concat('/')))
 const ORGANISATION_UNITS_ROUTE = MY_LOCAL_PORT.concat('/organisationUnits.json?paging=false&fields=id,name,displayName,parent,level')

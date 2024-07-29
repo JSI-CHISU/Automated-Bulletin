@@ -1,10 +1,5 @@
-# Malaria Bulletins App
+# Automated Bulletin App
 This project is supported by CHISU 
-## Changelog
- - Namespace changed from malaria-bulletin to malaria_bulletin
-## Users
-
-## Developers
 
 This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform).
 
@@ -43,6 +38,15 @@ This command will prompt you to enter a server URL as well as the username and p
 You must run `yarn build` before running `yarn deploy`.<br />
 
 See the section about [deploying](https://platform.dhis2.nu/#/scripts/deploy) for more information.
+
+## Changelog
+- Renamed app to automated_bulletin
+- Namespace changed from malaria_bulletin to automated_bulletin
+- Namespace changed from malaria-bulletin to malaria_bulletin
+
+## Users
+
+## Developers
 
 ### Learn More
 

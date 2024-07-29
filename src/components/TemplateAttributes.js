@@ -6,7 +6,7 @@ export const TemplateAttributes = () => {
     return (
         <div>
             <Field className={classes.template__attributes} label="Template name">
-                <Input name="name" placeholder="Example: Malaria bulletin"/>
+                <Input name="name" placeholder="Automated Bulletin Name"/>
             </Field>
         </div>
     )
