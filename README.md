@@ -1,4 +1,7 @@
 # Automated Bulletin App
+
+The automated bulletin application provides a generic template that can be imported into District Health Information Software 2 (DHIS2) as a third party application. DHIS2, a global digital public good, is the web-based platform most commonly used as a country HMIS in over 70 low- and middle-income countries. CHISU envisions this application will be a generic, scalable, and robust bulletin that is configurable and adaptable to different country and subnational contexts.
+
 This project is supported by CHISU 
 
 This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform).
