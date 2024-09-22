@@ -37,7 +37,7 @@ const Template = memo(({ data, user }) =>{
     }
 
     return (
-        <Main title={i18n.t("Automated Bulletin Report")}>
+        <Main title={i18n.t("Automated Bulletin")}>
             <h5>{i18n.t('Design the Report Template')}</h5>
             <div style={{
                 display: 'flex',
