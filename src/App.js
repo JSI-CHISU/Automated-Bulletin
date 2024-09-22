@@ -21,7 +21,7 @@ const App = () => {
           <Routes>
             <Route path="/" index  element={<ViewReport user={ data?.me}/>} />
             <Route path="template"  element={<Template user={ data?.me}/>} />
-            <Route path="settings" element={<Settings user={ data?.me}/>} />
+            {/* <Route path="settings" element={<Settings user={ data?.me}/>} /> */}
             <Route path="report"  element={<ViewReport user={ data?.me}/>} />
             <Route path="download"  element={<DownloadReport user={ data?.me}/>} />
           </Routes>

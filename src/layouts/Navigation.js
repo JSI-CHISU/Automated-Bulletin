@@ -47,7 +47,7 @@ export const  Navigation = () => {
             </NavLink>
           ): null
         }
-        <NavLink
+        {/* <NavLink
           to="/settings"
           className={({ isActive, isPending, isTransitioning }) =>
             [
@@ -58,7 +58,7 @@ export const  Navigation = () => {
           }
         >
          <MenuItem label="Settings" />
-        </NavLink>
+        </NavLink> */}
     </Menu>
   );
 };
