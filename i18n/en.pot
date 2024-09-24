@@ -17,8 +17,8 @@ msgstr "Bulletins"
 msgid "Automated Bulletin"
 msgstr "Automated Bulletin"
 
-msgid "Design the Report Template"
-msgstr "Design the Report Template"
+msgid "Design the Template"
+msgstr "Design the Template"
 
 msgid "The plugin for rendering this item is not available"
 msgstr "The plugin for rendering this item is not available"
