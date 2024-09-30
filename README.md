@@ -4,6 +4,8 @@ The automated bulletin application provides a generic template that can be impor
 
 This project is supported by CHISU 
 
+Find the user guide [here](./user_guide_v1.pdf).
+
 This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform).
 
 ### Available Scripts
