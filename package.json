@@ -1,6 +1,6 @@
 {
   "name": "Automated-Bulletin",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Automated Bulletin app automates the process of creating bulletins, which are essential for monitoring and documenting a country's progress towards achieving its health goals.",
   "license": "BSD-3-Clause",
   "private": true,
